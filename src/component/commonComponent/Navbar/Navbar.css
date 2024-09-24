@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0px 5vw;
+  /* position: fixed; */
+  width: 100vw;
+}
+.logo {
+}
+.menu {
+  display: flex;
+  gap: 2vw;
+}
+.login {
+  padding: 1vh 2vw;
+  color: white;
+  border: none;
+  background-color: #d01c28;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
